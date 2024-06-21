@@ -12,6 +12,7 @@ public class LoginPageStepDef {
 
     @Given("User on the Amazon website Login page")
     public void user_On_Amazon_website_loginPage() {
+        System.out.println("Prashant Chaudhary");
         loginPage.openURL();
     }
 

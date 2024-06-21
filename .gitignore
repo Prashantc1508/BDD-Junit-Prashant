@@ -3,10 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-test-output/ExtentReport/extent.html
-test-output/PdfReport/ExtentPdf.pdf
-
-BDD-Junit-Prashant/test-output/
+test-output/PdfReport/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -16,6 +13,7 @@ BDD-Junit-Prashant/test-output/
 *.iws
 *.iml
 *.ipr
+*.html
 
 ### Eclipse ###
 .apt_generated

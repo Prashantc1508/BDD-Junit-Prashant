@@ -34,6 +34,6 @@ public class LoginPageStepDef {
     @Then("Validates user is on homepage {string}")
     public void validate_User_Is_On_Home_Page(String expectedData) {
         String actualData = loginPage.validate_User_Is_On_Home_Page();
-        Assert.assertEquals("Actual data is not matched with Expected data",actualData, "hjshfj" );
+        Assert.assertEquals("Actual data is not matched with Expected data",actualData, expectedData );
     }
 }

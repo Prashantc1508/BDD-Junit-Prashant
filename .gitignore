@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+test-output/ExtentReport/extent.html
+test-output/PdfReport/ExtentPdf.pdf
 
 BDD-Junit-Prashant/test-output/
 

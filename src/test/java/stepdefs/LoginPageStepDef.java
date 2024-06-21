@@ -28,6 +28,7 @@ public class LoginPageStepDef {
 
     @And("User click on login button")
     public void user_On_Login_Button() {
+        System.out.println("Shubham");
         loginPage.user_On_Login_Button();
     }
 

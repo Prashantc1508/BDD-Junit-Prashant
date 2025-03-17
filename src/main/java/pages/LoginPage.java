@@ -12,6 +12,7 @@ public class LoginPage extends DriverFactory {
     private By loginButton = By.xpath("//input[@type='submit']");
     private By homePage = By.xpath("//div[@id='content']//h2[1]");
 
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }

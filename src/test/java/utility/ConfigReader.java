@@ -1,4 +1,4 @@
-package utill;
+package utility;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ public class ConfigReader {
     public Properties init_prop() {
         prop = new Properties();
         try {
-            FileInputStream ip = new FileInputStream("C:\\BDD_Juit_Prashant_New\\BDD-Junit-Prashant\\src\\test\\resources\\config.properties");
+            FileInputStream ip = new FileInputStream("C:\\Users\\prashantchaudhary01\\BDD_Juit_Prashant_New\\BDD-Junit-Prashant\\src\\test\\resources\\config.properties");
             prop.load(ip);
         } catch (FileNotFoundException e) {
             e.printStackTrace();

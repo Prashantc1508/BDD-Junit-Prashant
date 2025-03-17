@@ -1,4 +1,4 @@
-package stepdefs;
+package stepdefs.ui;
 
 import factory.DriverFactory;
 import io.cucumber.java.en.And;
